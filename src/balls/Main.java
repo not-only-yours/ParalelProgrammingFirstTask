@@ -1,4 +1,6 @@
-import bounce.BounceFrame;
+package balls;
+
+import balls.bounce.BounceFrame;
 
 import javax.swing.*;
 
@@ -9,5 +11,6 @@ public class Main {
 
         frame.setVisible(true);
         System.out.println("Thread name = " + Thread.currentThread().getName());
+
     }
 }

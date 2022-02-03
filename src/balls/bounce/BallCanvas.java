@@ -1,10 +1,10 @@
-package bounce;
+package balls.bounce;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
-import static bounce.BounceFrame.RED_PRIORITY;
+import static balls.bounce.BounceFrame.RED_PRIORITY;
 
 public class BallCanvas extends JPanel {
     private static ArrayList<Ball> balls = new ArrayList<>();

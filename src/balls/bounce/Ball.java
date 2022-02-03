@@ -1,4 +1,4 @@
-package bounce;
+package balls.bounce;
 
 import java.awt.*;
 import java.awt.geom.Ellipse2D;

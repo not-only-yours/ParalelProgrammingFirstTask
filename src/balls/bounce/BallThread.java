@@ -1,10 +1,5 @@
-package bounce;
+package balls.bounce;
 
-
-import com.sun.tools.javac.Main;
-
-import static bounce.BounceFrame.HEIGHT;
-import static bounce.BounceFrame.WIDTH;
 
 public class BallThread extends Thread{
     private Ball b;

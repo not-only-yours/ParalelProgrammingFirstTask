@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d6ddd4-73d2-428d-93e7-c26d962bd512" name="Changes" comment="added counter and first hole">
-      <change beforePath="$PROJECT_DIR$/src/taskOne/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BallCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BallThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bounce/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/bounce/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bounce/BallCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/bounce/BallCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bounce/BallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/bounce/BallThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bounce/BounceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/bounce/BounceFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +27,23 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,14 +64,66 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part1.Main" />
+      <module name="ParalelProgrammingFirstTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.Main" />
+      <module name="ParalelProgrammingFirstTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="counter.Main" />
+      <module name="ParalelProgrammingFirstTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="part1.bounce.Main" />
       <module name="ParalelProgrammingFirstTask" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
