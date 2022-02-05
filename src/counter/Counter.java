@@ -1,37 +1,32 @@
 package counter;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Counter {
-    private int count = 0;
+    private static int count = 0;
+    private static AtomicInteger c = new AtomicInteger(0);
 
-    public void incrementUnsynchronized() {
+    public static void increment() {
         count++;
     }
 
-    public void decrementUnsynchronized() {
+    public static void decrement() {
         count--;
     }
 
-    public synchronized void incrementSynchronizedMethod() {
-        count++;
-    }
-
-    public synchronized void decrementSynchronizedMethod() {
-        count--;
-    }
-
-    public void incrementSynchronizedBlock() {
-        synchronized (this) {
-            count++;
-        }
-    }
-
-    public void decrementSynchronizedBlock() {
-        synchronized (this) {
-            count--;
-        }
-    }
-
-    public int getCount() {
+    public static int getCount() {
         return count;
+    }
+
+    public static void incrementAtomic() {
+        c.incrementAndGet();
+    }
+
+    public static void decrementAtomic() {
+        c.decrementAndGet();
+    }
+
+    public static int getCountAtomic() {
+        return c.get();
     }
 }

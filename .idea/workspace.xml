@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d6ddd4-73d2-428d-93e7-c26d962bd512" name="Changes" comment="added counter and first hole">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/Ball.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BallCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BallThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/bounce/BounceFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bounce/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/bounce/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bounce/BallCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/bounce/BallCanvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bounce/BallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/bounce/BallThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bounce/BounceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/balls/bounce/BounceFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/counter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
