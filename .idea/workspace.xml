@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="81d6ddd4-73d2-428d-93e7-c26d962bd512" name="Changes" comment="added counter and first hole">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/counter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/balls/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/balls/bounce/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/balls/bounce/BallCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/balls/bounce/BallThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/balls/bounce/BounceFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counter/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counter/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/secondTask" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1.Main" />
       <module name="ParalelProgrammingFirstTask" />
@@ -94,9 +102,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="secondTask.firstPart.Main" />
+      <module name="ParalelProgrammingFirstTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secondTask.firstPart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="secondTask.FoxAlgorithm.Main" />
+      <module name="ParalelProgrammingFirstTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secondTask.FoxAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1.bounce.Main" />
       <module name="ParalelProgrammingFirstTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="firstPart.Main" />
+      <module name="ParalelProgrammingFirstTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstPart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,12 +153,16 @@
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
