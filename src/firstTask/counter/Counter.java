@@ -1,10 +1,10 @@
-package counter;
+package firstTask.counter;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Counter {
     private static int count = 0;
-    private static AtomicInteger c = new AtomicInteger(0);
+    private static int c = 0;
 
     public static void increment() {
         count++;
@@ -18,15 +18,15 @@ public class Counter {
         return count;
     }
 
-    public static void incrementAtomic() {
-        c.incrementAndGet();
+    public static synchronized void incrementSync() {
+        c++;
     }
 
-    public static void decrementAtomic() {
-        c.decrementAndGet();
+    public static synchronized void decrementSync() {
+        c--;
     }
 
     public static int getCountAtomic() {
-        return c.get();
+        return c;
     }
 }

@@ -4,14 +4,15 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int firstMatrixLength = 2;
-        int firstMatrixHigh = 2;
-        int secondMatrixLength = 2;
-        int secondMatrixHigh = 2;
-        int[][] matrix = generateMatrix(2, 2);
-        int[][] matrix2 = generateMatrix(2, 2);
+        int firstMatrixLength = 4;
+        int firstMatrixHigh = 4;
+        int secondMatrixLength = 4;
+        int secondMatrixHigh = 4;
+        int numberOfThreads = 1;
+        int[][] matrix = generateMatrix(firstMatrixLength, firstMatrixHigh);
+        int[][] matrix2 = generateMatrix(secondMatrixLength, secondMatrixHigh);
 
-        FoxAlgorithm fa = new FoxAlgorithm(matrix, matrix2, 1);
+        FoxAlgorithm fa = new FoxAlgorithm(matrix, matrix2, numberOfThreads);
 
         printMatrix(matrix);
         printMatrix(matrix2);

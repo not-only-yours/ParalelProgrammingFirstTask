@@ -1,4 +1,4 @@
-package counter;
+package firstTask.counter;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -43,7 +43,7 @@ class Runnable1 implements Runnable{
 class Runnable3 implements Runnable{
     public void run(){
         for(int i = 0; i < 100000; i++) {
-            Counter.incrementAtomic();
+            Counter.incrementSync();
             System.out.println(Counter.getCountAtomic());
         }
     }
@@ -52,7 +52,7 @@ class Runnable3 implements Runnable{
 class Runnable4 implements Runnable{
     public void run(){
         for(int i = 0;i < 100000;i++) {
-            Counter.decrementAtomic();
+            Counter.decrementSync();
             System.out.println(Counter.getCountAtomic());
         }
     }
