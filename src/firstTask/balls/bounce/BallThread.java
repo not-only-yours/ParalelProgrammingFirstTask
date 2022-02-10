@@ -3,12 +3,18 @@ package firstTask.balls.bounce;
 
 public class BallThread extends Thread{
     private Ball b;
-
-
+    BallThread ballThread;
+    boolean isBallThread = false;
     public BallThread(Ball ball) {
         b = ball;
     }
 
+    public BallThread(Ball ball,BallThread ballThread) {
+        b = ball;
+        this.ballThread = ballThread;
+        this.ballThread.start();
+        isBallThread = true;
+    }
     @Override
 
     public void run (){
@@ -24,10 +30,15 @@ public class BallThread extends Thread{
                     Thread.sleep(5);
                 }
                 System.out.println("Thread name = " + Thread.currentThread().getName());
+
+                if(isBallThread) {
+                    ballThread.join();
+                }
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
         } ;
+        isBallThread = false;
         System.out.println("Stopped Thread name = " + Thread.currentThread().getName());
     }
 

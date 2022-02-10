@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="81d6ddd4-73d2-428d-93e7-c26d962bd512" name="Changes" comment="added counter and first hole">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallCanvas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/BounceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/BounceFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/counter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

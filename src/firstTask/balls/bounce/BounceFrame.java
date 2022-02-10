@@ -69,21 +69,13 @@ public class BounceFrame extends JFrame {
         buttonBlue.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new Thread(() -> {
-                    List<Ball> balls = Arrays.asList(new Ball(canvas, 1), new Ball(canvas, 10));
-                    for(Ball ball: balls) {
-                        canvas.add(ball);
-                    }
-                    for (Ball ball : balls) {
-                        BallThread ballThread = new BallThread(ball);
-                        ballThread.start();
-                        try {
-                            ballThread.join();
-                        } catch (InterruptedException ex) {
-                            ex.printStackTrace();
-                        }
-                    }
-                }).start();
+                List<Ball> balls = Arrays.asList(new Ball(canvas, 1), new Ball(canvas, 10));
+                for (Ball ball : balls) {
+                    canvas.add(ball);
+                }
+                BallThread bs1 = new BallThread(balls.get(0));
+                BallThread bs2 = new BallThread(balls.get(1), bs1);
+                bs2.start();
             }
         });
 
