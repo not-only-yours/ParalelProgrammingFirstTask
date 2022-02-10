@@ -1,4 +1,4 @@
-package balls.bounce;
+package firstTask.balls.bounce;
 
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
@@ -39,6 +39,13 @@ public class Ball {
             x = 0;
             y = new Random().nextInt(this.canvas.getHeight());
         }
+        p = priority;
+    }
+
+    public Ball (Component c, int priority,int coordX,int coordY) {
+        this.canvas = c;
+        x = coordX;
+        y = coordY;
         p = priority;
     }
 

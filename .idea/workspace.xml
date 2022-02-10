@@ -3,16 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="81d6ddd4-73d2-428d-93e7-c26d962bd512" name="Changes" comment="added counter and first hole">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/counter/Runnable4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/BounceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/BounceFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firstTask/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/counter/Counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firstTask/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/counter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/threads/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/threads/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +61,8 @@
       <recent name="$PROJECT_DIR$/src/secondTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (6)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Lab1_balls">
+    <configuration name="Lab1_/-" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="firstTask.threads.Main" />
       <module name="ParalelProgrammingFirstTask" />
       <extension name="coverage">
@@ -78,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="counter.Main" />
+    <configuration name="Lab1_balls" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="firstTask.balls.Main" />
       <module name="ParalelProgrammingFirstTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="counter.*" />
+          <option name="PATTERN" value="balls.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,33 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondTask.firstPart.Main" />
-      <module name="ParalelProgrammingFirstTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="secondTask.firstPart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondTask.FoxAlgorithm.Main" />
-      <module name="ParalelProgrammingFirstTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="secondTask.FoxAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab1_numbers" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="firstTask.counter.Main" />
       <module name="ParalelProgrammingFirstTask" />
       <extension name="coverage">
@@ -130,9 +101,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part1.bounce.Main" />
+    <configuration name="Lab2_FirstAlg" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="secondTask.firstPart.Main" />
       <module name="ParalelProgrammingFirstTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secondTask.firstPart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab2_FoxAlg" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="secondTask.FoxAlgorithm.Main" />
+      <module name="ParalelProgrammingFirstTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secondTask.FoxAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,20 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (5)" />
-      <item itemvalue="Application.Main (6)" />
-      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Lab2_FirstAlg" />
+      <item itemvalue="Application.Lab2_FoxAlg" />
+      <item itemvalue="Application.Lab1_numbers" />
+      <item itemvalue="Application.Lab1_/-" />
+      <item itemvalue="Application.Lab1_balls" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (6)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Lab1_balls" />
+        <item itemvalue="Application.Lab2_FirstAlg" />
+        <item itemvalue="Application.Lab2_FoxAlg" />
+        <item itemvalue="Application.Lab1_numbers" />
+        <item itemvalue="Application.Lab1_/-" />
       </list>
     </recent_temporary>
   </component>

@@ -1,15 +1,17 @@
-package balls.bounce;
+package firstTask.balls.bounce;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
+import java.util.List;
 
 public class BounceFrame extends JFrame {
     private BallCanvas canvas;
     public static final int WIDTH = 450;
     public static final int HEIGHT = 350;
-    public static final int RED_PRIORITY = 10;
+    public static final int RED_PRIORITY = 100;
     public static final int BLUE_PRIORITY = 1;
     public static JTextField text = new JTextField(String.valueOf(BallCanvas.ballsNum()));
 
@@ -28,8 +30,8 @@ public class BounceFrame extends JFrame {
         JPanel buttonPanel = new JPanel();
         buttonPanel.setBackground(Color.lightGray);
         JButton buttonStart = new JButton("Start");
-        JButton buttonBlue = new JButton("Start Blue");
-        JButton buttonRed = new JButton("Start Red");
+        JButton buttonBlue = new JButton("Join");
+        JButton buttonRed = new JButton("Priority");
         JButton buttonStop = new JButton("Stop");
 
         buttonStart.addActionListener(new ActionListener() {
@@ -47,7 +49,15 @@ public class BounceFrame extends JFrame {
         buttonRed.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Ball b = new Ball(canvas, RED_PRIORITY);
+                for (int i = 0; i < 100; i++) {
+                    Ball b = new Ball(canvas, BLUE_PRIORITY,50,50);
+                    canvas.add(b);
+                    BallThread thread = new BallThread(b);
+                    thread.start();
+                    updateCounter();
+                    System.out.println("Thread name = " + thread.getName());
+                }
+                Ball b = new Ball(canvas, RED_PRIORITY, 50, 50);
                 canvas.add(b);
                 BallThread thread = new BallThread(b);
                 thread.start();
@@ -59,12 +69,21 @@ public class BounceFrame extends JFrame {
         buttonBlue.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Ball b = new Ball(canvas, BLUE_PRIORITY);
-                canvas.add(b);
-                BallThread thread = new BallThread(b);
-                thread.start();
-                updateCounter();
-                System.out.println("Thread name = " + thread.getName());
+                new Thread(() -> {
+                    List<Ball> balls = Arrays.asList(new Ball(canvas, 1), new Ball(canvas, 10));
+                    for(Ball ball: balls) {
+                        canvas.add(ball);
+                    }
+                    for (Ball ball : balls) {
+                        BallThread ballThread = new BallThread(ball);
+                        ballThread.start();
+                        try {
+                            ballThread.join();
+                        } catch (InterruptedException ex) {
+                            ex.printStackTrace();
+                        }
+                    }
+                }).start();
             }
         });
 

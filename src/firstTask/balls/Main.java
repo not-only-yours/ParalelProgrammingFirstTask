@@ -1,6 +1,6 @@
-package balls;
+package firstTask.balls;
 
-import balls.bounce.BounceFrame;
+import firstTask.balls.bounce.BounceFrame;
 
 import javax.swing.*;
 

@@ -4,7 +4,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Counter {
     private static int count = 0;
-    private static int c = 0;
 
     public static void increment() {
         count++;
@@ -19,14 +18,15 @@ public class Counter {
     }
 
     public static synchronized void incrementSync() {
-        c++;
+        count++;
     }
 
     public static synchronized void decrementSync() {
-        c--;
+        count--;
     }
 
+
     public static int getCountAtomic() {
-        return c;
+        return count;
     }
 }
