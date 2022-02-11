@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d6ddd4-73d2-428d-93e7-c26d962bd512" name="Changes" comment="added counter and first hole">
-      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/BallThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/FoxAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/FoxAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src/secondTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lab1_balls">
+  <component name="RunManager" selected="Application.Lab2_FoxAlg">
     <configuration name="Lab1_/-" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="firstTask.threads.Main" />
       <module name="ParalelProgrammingFirstTask" />
@@ -142,9 +144,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab2_FoxAlg" />
         <item itemvalue="Application.Lab1_balls" />
         <item itemvalue="Application.Lab2_FirstAlg" />
-        <item itemvalue="Application.Lab2_FoxAlg" />
         <item itemvalue="Application.Lab1_numbers" />
         <item itemvalue="Application.Lab1_/-" />
       </list>

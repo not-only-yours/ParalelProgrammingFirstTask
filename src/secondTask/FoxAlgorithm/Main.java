@@ -1,18 +1,19 @@
 package secondTask.FoxAlgorithm;
 
 import java.util.Random;
+import java.util.concurrent.ExecutionException;
 
 public class Main {
-    public static void main(String[] args) {
-        int firstMatrixLength = 4;
-        int firstMatrixHigh = 4;
-        int secondMatrixLength = 4;
-        int secondMatrixHigh = 4;
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        int firstMatrixLength = 2;
+        int firstMatrixHigh = 2;
+        int secondMatrixLength = 2;
+        int secondMatrixHigh = 2;
         int numberOfThreads = 1;
         int[][] matrix = generateMatrix(firstMatrixLength, firstMatrixHigh);
         int[][] matrix2 = generateMatrix(secondMatrixLength, secondMatrixHigh);
 
-        FoxAlgorithm fa = new FoxAlgorithm(matrix, matrix2, numberOfThreads);
+        FoxAlgorithm fa = new FoxAlgorithm(firstMatrixLength, firstMatrixHigh, matrix,secondMatrixLength, secondMatrixHigh, matrix2, numberOfThreads);
 
         printMatrix(matrix);
         printMatrix(matrix2);

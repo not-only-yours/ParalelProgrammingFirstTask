@@ -101,9 +101,11 @@ public class FoxAlgorithm {
                     int stepJ2 = matrixOfSizesJ[(i + l) % nThread][j];
 
                     FoxThread t =
-                            new FoxThread(
+                            new FoxThread(firstMatrixLength, firstMatrixHigh,
                                     copyBlock(matrix, stepI1, stepJ1, step),
+                                    secondMatrixLength, secondMatrixHigh,
                                     copyBlock(matrix2, stepI2, stepJ2, step),
+                                    firstMatrixLength, secondMatrixHigh,
                                     C,
                                     stepI0,
                                     stepJ0);
