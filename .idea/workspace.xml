@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81d6ddd4-73d2-428d-93e7-c26d962bd512" name="Changes" comment="added counter and first hole">
-      <change afterPath="$PROJECT_DIR$/src/secondTask/firstPart/FoxAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/balls/bounce/BallCanvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/balls/bounce/BallCanvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/balls/bounce/BounceFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/balls/bounce/BounceFrame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/balls/bounce/BounceFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/balls/bounce/BounceFrame$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/balls/bounce/BounceFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/balls/bounce/BounceFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/firstTask/counter/Runnable6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/secondTask/FoxAlgorithm/FoxAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/secondTask/FoxAlgorithm/FoxThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/secondTask/FoxAlgorithm/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/secondTask/firstPart/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/secondTask/firstPart/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/secondTask/firstPart/ParallelMatrixWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParalelProgrammingFirstTask/secondTask/firstPart/ParallelMatrixWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/balls/bounce/BounceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/balls/bounce/BounceFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstTask/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstTask/counter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/FoxAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/FoxThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondTask/FoxAlgorithm/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondTask/firstPart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondTask/firstPart/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secondTask/firstPart/ParallelMatrixWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secondTask/firstPart/ParallelMatrixWorker.java" afterDir="false" />
-    </list>
+    <list default="true" id="81d6ddd4-73d2-428d-93e7-c26d962bd512" name="Changes" comment="added counter and first hole" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

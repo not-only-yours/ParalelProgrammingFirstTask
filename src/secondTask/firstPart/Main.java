@@ -84,7 +84,7 @@ public class Main {
 
         long end = System.currentTimeMillis() - start;
 
-        return new Result(result, result.length, result[0].length, end, "block");
+        return new Result(result, result.length, result[0].length, (double) end/1000, "block");
     }
 
     private static void waitMatrixThreads(Thread[] threads){
@@ -109,7 +109,7 @@ public class Main {
         }
         waitMatrixThreads(parallelFoxMatrixThreads);
         long end = System.currentTimeMillis() - start;
-        return new Result(result, result.length, result[0].length, end, "fox");
+        return new Result(result, result.length, result[0].length, (double) end/1000, "fox");
     }
 
     public static boolean isTwoMatricesEqual(int[][] matrix1, int[][] matrix2) {
