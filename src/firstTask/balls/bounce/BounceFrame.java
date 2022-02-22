@@ -11,7 +11,7 @@ public class BounceFrame extends JFrame {
     private BallCanvas canvas;
     public static final int WIDTH = 450;
     public static final int HEIGHT = 350;
-    public static final int RED_PRIORITY = 100;
+    public static final int RED_PRIORITY = 10;
     public static final int BLUE_PRIORITY = 1;
     public static JTextField text = new JTextField(String.valueOf(BallCanvas.ballsNum()));
 
@@ -49,7 +49,7 @@ public class BounceFrame extends JFrame {
         buttonRed.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                for (int i = 0; i < 100; i++) {
+                for (int i = 0; i < 500; i++) {
                     Ball b = new Ball(canvas, BLUE_PRIORITY,50,50);
                     canvas.add(b);
                     BallThread thread = new BallThread(b);
@@ -69,7 +69,7 @@ public class BounceFrame extends JFrame {
         buttonBlue.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                List<Ball> balls = Arrays.asList(new Ball(canvas, 1), new Ball(canvas, 10));
+                List<Ball> balls = Arrays.asList(new Ball(canvas, BLUE_PRIORITY), new Ball(canvas, RED_PRIORITY));
                 for (Ball ball : balls) {
                     canvas.add(ball);
                 }

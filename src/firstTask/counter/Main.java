@@ -2,14 +2,16 @@ package firstTask.counter;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         //unsync();
         //syncMethod();
-        syncBlock();
-
+        //syncBlock();
+        BlockLock();
     }
     private static void unsync() {
         Runnable r = new Runnable1();
@@ -35,6 +37,35 @@ public class Main {
         Thread t2 = new Thread(r2);
         t.start();
         t2.start();
+    }
+
+    private static void BlockLock() throws InterruptedException {
+        ReentrantLock lock = new ReentrantLock();
+        Runnable task1 =
+                () -> {
+                    for (int i = 0; i < 1000; i++) {
+                        lock.lock();
+                        Counter.decrement();
+                        lock.unlock();
+                    }
+                };
+        Thread taskThread1 = new Thread(task1);
+
+        Runnable task2 =
+                () -> {
+                    for (int i = 0; i < 1000; i++) {
+                        lock.lock();
+                        Counter.decrement();
+                        lock.unlock();
+                    }
+                };
+        Thread taskThread2 = new Thread(task2);
+        System.out.println(Counter.getCount());
+        taskThread1.start();
+        taskThread2.start();
+
+        taskThread1.join();
+        taskThread2.join();
     }
 }
 
@@ -79,8 +110,9 @@ class Runnable4 implements Runnable{
 
 class Runnable5 implements Runnable{
     public void run(){
-        synchronized (this) {
+
             for (int i = 0; i < 100000; i++) {
+                synchronized (this) {
                 Counter.incrementSync();
                 System.out.println(Counter.getCountAtomic());
             }
@@ -90,13 +122,15 @@ class Runnable5 implements Runnable{
 
 class Runnable6 implements Runnable{
     public void run(){
-        synchronized (this) {
+
             for (int i = 0; i < 100000; i++) {
+                synchronized (this) {
                 Counter.decrementSync();
                 System.out.println(Counter.getCountAtomic());
             }
         }
     }
 }
+
 
 

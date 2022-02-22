@@ -25,7 +25,6 @@ public class Counter {
         count--;
     }
 
-
     public static int getCountAtomic() {
         return count;
     }
